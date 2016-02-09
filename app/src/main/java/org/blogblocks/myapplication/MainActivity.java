@@ -99,7 +99,9 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(this, ImmigrationMap.class);
             this.startActivity(intent);
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_cities) {
+            Intent intent = new Intent(this, Cities.class);
+            this.startActivity(intent);
 
         } else if (id == R.id.nav_send) {
 

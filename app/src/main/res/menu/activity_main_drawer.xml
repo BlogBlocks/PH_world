@@ -18,6 +18,10 @@
             android:id="@+id/nav_immigration"
             android:icon="@drawable/ic_menu_manage"
             android:title="PH Bureau Immigration" />
+        <item
+            android:id="@+id/nav_cities"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Five Major Cities" />
     </group>
 
     <item android:title="Communicate">

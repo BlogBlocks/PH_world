@@ -15,12 +15,19 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Philippine Information App"
-        android:id="@+id/textView4" />
+        android:text="Philippine Government Offices"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:gravity="center" />
+
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Information both online and offline concerning the Philippines. Contents include Philippine Government information Us And Canadian Embassy info and maps. Information on customs, transportation lodging and more. Many features extend with online capabilities."
         android:layout_below="@+id/textView4"
         android:layout_alignParentLeft="true"
@@ -40,9 +47,19 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="This button relies on an internet /GPS connection it will show where you are and permit you to save and comment on the location. It is also shareable through Twitter and Facebook."
         android:id="@+id/textView5"
         android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView19"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
